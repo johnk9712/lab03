@@ -1,0 +1,19 @@
+//Min Jea Kim, mk4cx, testPostfixCalc.cpp, February 2, 2018
+#include <iostream>
+#include <stdlib.h>
+#include "postfixCalculator.h"
+
+using namespace std;
+
+int main(){
+
+
+
+
+
+
+
+
+
+  return 0;
+}

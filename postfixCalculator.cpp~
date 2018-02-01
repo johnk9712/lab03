@@ -1,0 +1,48 @@
+//Min Jea Kim, mk4cx, postfixCalculator.cpp, February 2, 2018
+#include <iostream>
+#include <stdlib.h>
+#include <cstdlib>
+#include "postfixCalculator.h"
+
+using namespace std;
+
+postfixCalculator::postfixCalculator(){ //default constructor
+  stack* node = new stack();
+} 
+
+postfixCalculator::postfixCalculator(Stack* a_node){ //copy constructor
+  a_stack = a_node;
+}
+
+
+void postfixCalculator::addition(){
+
+
+}
+
+void postfixCalculator::subtraction(){
+
+
+}
+
+
+void postfixCalculator::multiplication(){
+
+
+}
+
+
+
+void postfixCalculator::division(){
+
+
+}
+
+
+void postfixCalculator::unary_negation(){
+
+
+}
+
+
+

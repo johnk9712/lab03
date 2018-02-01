@@ -1,0 +1,33 @@
+//Min Jea Kim, mk4cx, postfixCalculator.cpp, February 2, 2018
+#include <iostream>
+#include <stdlib.h>
+#include <cstdlib>
+using namespace std;
+
+#ifndef POSTFIXCALCULATOR_H
+#define POSTFIXCALCULATOR_H
+
+class postfixCalculator{
+
+ public:
+  postfixCalculator();
+  postfixCalculator(Stack* stack);
+
+  void addition(); //adds two numbers together
+
+  void subtraction(); //deletes two numbers
+  
+  void multiplication(); //multiplies two numbers
+
+  void division(); //divides two numbers
+
+  void unary_negation(); //negates a number
+
+ private:
+  int value;
+  stack* a_stack;
+  
+};
+
+
+#endif
